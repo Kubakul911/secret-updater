@@ -1,0 +1,9 @@
+import platform, psutil
+
+def system_info():
+    info = f"""
+    Система: {platform.system()} {platform.release()}
+    Процессор: {platform.processor()}
+    Память: {psutil.virtual_memory().total / (1024**3):.2f} GB
+    """
+    return info
