@@ -1,3 +1,6 @@
 {
   "Блокировка ПК": "https://raw.githubusercontent.com/Kubakul911/secret-updater/main/lock_pc.py"
 }
+{
+  "Инфа о системе": "https://raw.githubusercontent.com/Kubakul911/secret-updater/refs/heads/main/infaosisteme"
+}
